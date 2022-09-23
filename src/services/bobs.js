@@ -7,5 +7,5 @@ export async function fetchCharacters() {
   );
   const data = await res.json();
   
-  return data.results;
+  return data;
 }
